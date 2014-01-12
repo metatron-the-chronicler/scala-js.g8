@@ -33,7 +33,7 @@ cs sebnozzi/giter8
 
 It is important that you install `sebnozzi/giter8` and NOT `n8han/giter8`.
 
-This version supports a small but important formatting option which is needed for Scala.js, but not yet committed to the original "giter8" repository.
+The `sebnozzi/giter8` version supports a small but important formatting option which is needed for Scala.js, but not yet committed to the original "giter8" repository.
 
 ## Usage
 
@@ -59,8 +59,10 @@ Scala.js Project
 version [0.1-SNAPSHOT]:
 organization [org.example]: com.sebnozzi
 name [ScalaJS Example]: My Cool Project
+
+Template applied in ./my-cool-project
 ```
 
-After enter the requested information your project structure will be created (note that the version was left blank and the default value was taken).
+After enter the requested information your project structure will be created (note that in the example above the version was left blank and thus default value was taken).
 
-You can now use Scala.js normally: `packageJS`, `test`, `optimizeJS` should all work. The HTML files should point to the correct JavaScript files.
+You can now use you Scala.js project as expected: `packageJS`, `test`, `optimizeJS` should all work.
