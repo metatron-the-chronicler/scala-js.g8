@@ -9,9 +9,9 @@ It saves you the work of having to [manually update](http://www.sebnozzi.com/142
 
 ## Installation
 
-### Upgrading: Removing previous "giter8" versions
+### Upgrading to the latest "giter8" version
 
-Your "giter8" version must be from the 17th January 2014 or newer.
+Your "giter8" version must be from the **17th Jan 2014 or newer**.
 
 If you never installed "giter8" or "conscript" before, skip to the next section.
 
@@ -21,11 +21,15 @@ If you have not upgraded in a while, clean-up the "[conscript](https://github.co
 cs --clean-boot
 ```
 
-Afterwards, re-install "giter8".
+Afterwards, re-install "giter8" with:
+
+```
+cs n8han/giter8
+```
 
 ### Installing "giter8"
 
-Follow the [installation instructions](https://github.com/n8han/giter8#installation) found on the official "giter8" page.
+To install "giter8" for the first time, follow the [installation instructions](https://github.com/n8han/giter8#installation) on the official "giter8" page.
 
 ## Usage
 
