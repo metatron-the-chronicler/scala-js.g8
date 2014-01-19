@@ -1,39 +1,31 @@
 # Giter8 Template for Scala.js
 
-In contrast to just cloning the [bootstrapping skeleton](https://github.com/sjrd/scala-js-example-app), using this "giter8" template allows you to easily create a Scala.js project with:
+Using this "giter8" template  you can easily generate a Scala.js project where this is set-up automatically for you:
 
 * a custom **name**
 * a custom **package structure**
 
-It saves you the work of having to [manually change](http://www.sebnozzi.com/142/scala-js-custom-names/) the directory structure, Scala classes, HTML and JavaScript.
+It saves you the work of having to [manually update](http://www.sebnozzi.com/142/scala-js-custom-names/) the directory structure, Scala classes, HTML and JavaScript files.
 
 ## Installation
 
-WARNING: This template requires a [**forked** version of "giter8"](https://github.com/sebnozzi/giter8)!
+### Upgrading: Removing previous "giter8" versions
 
-### Removing previous "giter8" versions
+Your "giter8" version must be from the 17th January 2014 or newer.
 
-If you have already installed "giter8", clean-up the "[conscript](https://github.com/n8han/conscript)" cache with:
+If you never installed "giter8" or "conscript" before, skip to the next section.
+
+If you have not upgraded in a while, clean-up the "[conscript](https://github.com/n8han/conscript)" cache with:
 
 ```
 cs --clean-boot
 ```
 
-If you never installed "giter8" or "conscript" before, continue to the next section.
+Afterwards, re-install "giter8".
 
-### Installing the **forked** version of "giter8" for Scala.js
+### Installing "giter8"
 
-First, you need to install "[conscript](https://github.com/n8han/conscript)".
-
-Then, install the [forked giter8](https://github.com/sebnozzi/giter8) by running this on the command-line:
-
-```
-cs sebnozzi/giter8
-```
-
-It is important that you install `sebnozzi/giter8` and NOT `n8han/giter8`.
-
-The `sebnozzi/giter8` version supports a small but important formatting option which is needed for Scala.js, but not yet committed to the original "giter8" repository.
+Follow the [installation instructions](https://github.com/n8han/giter8#installation) found on the official "giter8" page.
 
 ## Usage
 
@@ -51,9 +43,13 @@ You will be asked for:
 1. Organization and
 1. Name
 
-of your project. Sample session:
+of your project. 
+
+Sample session:
 
 ```
+# g8 sebnozzi/scala-js.g8
+
 Scala.js Project 
 
 version [0.1-SNAPSHOT]:
