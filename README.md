@@ -57,6 +57,9 @@ organization [org.example]: com.sebnozzi
 name [ScalaJS Example]: My Cool Project
 
 Template applied in ./my-cool-project
+
+# cd my-cool-project
+# sbt
 ```
 
 After enter the requested information your project structure will be created (note that in the example above the version was left blank and thus default value was taken).
