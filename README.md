@@ -9,13 +9,13 @@ It saves you the work of having to [manually update](http://www.sebnozzi.com/142
 
 ## Installation
 
-### Upgrading to the latest "giter8" version
+### Installing "giter8"
 
-Your "giter8" version must be from the **17th Jan 2014 or newer**.
+To install "giter8" for the first time, follow the [installation instructions](https://github.com/n8han/giter8#installation) on the official "giter8" page.
 
-If you never installed "giter8" or "conscript" before, skip to the next section.
+If you _already_ have "giter8" installed, but it's from before **17th Jan 2014**, you need to **upgrade** (if in doubt, upgrade).
 
-If you have not upgraded in a while, clean-up the "[conscript](https://github.com/n8han/conscript)" cache with:
+First, clean-up the "[conscript](https://github.com/n8han/conscript)" cache with:
 
 ```
 cs --clean-boot
@@ -26,10 +26,6 @@ Afterwards, re-install "giter8" with:
 ```
 cs n8han/giter8
 ```
-
-### Installing "giter8"
-
-To install "giter8" for the first time, follow the [installation instructions](https://github.com/n8han/giter8#installation) on the official "giter8" page.
 
 ## Usage
 
