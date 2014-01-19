@@ -1,6 +1,10 @@
 # Giter8 Template for Scala.js
 
-Using this "giter8" template  you can easily generate a Scala.js project where this is set-up automatically for you:
+What is [giter8](https://github.com/n8han/giter8)?
+
+> "Giter8 is a command line tool to generate files and directories from templates published on github or any other git repository"
+
+Using this giter8 template  you can easily generate a [Scala.js](http://www.scala-js.org/) project where this is set-up automatically for you:
 
 * a custom **name**
 * a custom **package structure**
@@ -9,19 +13,19 @@ It saves you the work of having to [manually update](http://www.sebnozzi.com/142
 
 ## Installation
 
-### Installing "giter8"
+### Installing giter8
 
-To install "giter8" for the first time, follow the [installation instructions](https://github.com/n8han/giter8#installation) on the official "giter8" page.
+To install giter8 for the first time, follow the [installation instructions](https://github.com/n8han/giter8#installation) on the official page.
 
-If you _already_ have "giter8" installed, but it's from before **17th Jan 2014**, you need to **upgrade** (if in doubt, upgrade).
+If you _already_ have giter8 installed, but it's from before **17th Jan 2014**, you need to **upgrade** (if in doubt, upgrade).
 
-First, clean-up the "[conscript](https://github.com/n8han/conscript)" cache with:
+First, clean-up the [conscript](https://github.com/n8han/conscript) cache with:
 
 ```
 cs --clean-boot
 ```
 
-Afterwards, re-install "giter8" with:
+Afterwards, re-install giter8 with:
 
 ```
 cs n8han/giter8
@@ -37,13 +41,17 @@ From the command line, run:
 g8 sebnozzi/scala-js.g8
 ```
 
+(Note how this schema points to this project on github)
+
 You will be asked for:
 
 1. Version,
 1. Organization and
 1. Name
 
-of your project. 
+of your project.
+
+After enter the requested information your project structure will be created (note that in the example above the version was left blank and thus default value was taken).
 
 Sample session:
 
@@ -62,6 +70,4 @@ Template applied in ./my-cool-project
 # sbt
 ```
 
-After enter the requested information your project structure will be created (note that in the example above the version was left blank and thus default value was taken).
-
-You can now use you Scala.js project as expected: `packageJS`, `test`, `optimizeJS` should all work.
+You can now use you Scala.js project as expected: `packageJS`, `test`, `optimizeJS` should all work from SBT.
