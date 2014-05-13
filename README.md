@@ -17,7 +17,7 @@ It saves you the work of having to [manually update](http://www.sebnozzi.com/142
 
 To install giter8 for the first time, follow the [installation instructions](https://github.com/n8han/giter8#installation) on the official page.
 
-If you _already_ have giter8 installed, but it's from before **17th Jan 2014**, you need to **upgrade** (if in doubt, upgrade).
+If you _already_ have giter8 installed, but it's from before **30th April 2014**, you need to **upgrade** (if in doubt, upgrade).
 
 First, clean-up the [conscript](https://github.com/n8han/conscript) cache with:
 
