@@ -1,2 +1,2 @@
-ScalaJS.modules.$organization;format="snake"$_$projectPackage$_$className$().main();
+ScalaJS.modules.$packageName;format="snake"$_$className$().main();
 
