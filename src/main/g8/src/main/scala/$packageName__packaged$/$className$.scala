@@ -1,9 +1,9 @@
-package $organization$.$name;format="word,lower"$
+package $packageName$
 
 import scala.scalajs.js
 import js.Dynamic.{ global => g }
 
-object $name;format="Camel"$ {
+object $className$ {
   def main(): Unit = {
     val paragraph = g.document.createElement("p")
     paragraph.innerHTML = "<strong>It works!</strong>"

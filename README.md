@@ -46,8 +46,10 @@ g8 sebnozzi/scala-js.g8
 You will be asked for:
 
 1. Version,
-1. Organization and
-1. Name
+1. Organization,
+1. Name,
+1. Package Name (simply accept the default value as it is derived from the previously entered Organization and Name) and
+1. Class Name (simply accept the default value as it is derived from the previously entered Name)
 
 of your project.
 
@@ -63,6 +65,8 @@ Scala.js Project
 version [0.1-SNAPSHOT]:
 organization [org.example]: com.sebnozzi
 name [ScalaJS Example]: My Cool Project
+packageName [com.sebnozzi.mycoolproject]:
+className [MyCoolProject]:
 
 Template applied in ./my-cool-project
 
