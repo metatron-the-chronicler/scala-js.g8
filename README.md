@@ -60,7 +60,7 @@ Sample session:
 ```
 # g8 sebnozzi/scala-js.g8
 
-Scala.js Project 
+Scala.js Project
 
 version [0.1-SNAPSHOT]:
 organization [org.example]: com.sebnozzi
@@ -74,4 +74,4 @@ Template applied in ./my-cool-project
 # sbt
 ```
 
-You can now use you Scala.js project as expected: `packageJS`, `test`, `optimizeJS` should all work from SBT.
+You can now use you Scala.js project as expected: `packageJS`, `test`, `fastOptJS`, `fullOptJS` should all work from SBT.
