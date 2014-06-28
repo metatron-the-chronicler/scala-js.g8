@@ -74,4 +74,4 @@ Template applied in ./my-cool-project
 # sbt
 ```
 
-You can now use you Scala.js project as expected: `packageJS`, `test`, `fastOptJS`, `fullOptJS` should all work from SBT.
+You can now use you Scala.js project as expected: `test`, `fastOptJS`, `fullOptJS` should all work from SBT.
