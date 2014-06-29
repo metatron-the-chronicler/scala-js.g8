@@ -1,16 +1,14 @@
 package $packageName$
 
 import scala.scalajs.js
-import js.Dynamic.{ global => g }
 import js.annotation.JSExport
+import org.scalajs.dom
 
-@JSExport
-object $className$ {
-  @JSExport
+object $className$ extends js.JSApp {
   def main(): Unit = {
-    val paragraph = g.document.createElement("p")
+    val paragraph = dom.document.createElement("p")
     paragraph.innerHTML = "<strong>It works!</strong>"
-    g.document.getElementById("playground").appendChild(paragraph)
+    dom.document.getElementById("playground").appendChild(paragraph)
   }
 
   /** Computes the square of an integer.
