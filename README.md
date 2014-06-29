@@ -70,7 +70,7 @@ className [Scalajsdemo]:
 
 Template applied in ./scalajsdemo
 
-# cd my-cool-project
+# cd scalajsdemo
 # sbt
 ```
 
