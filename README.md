@@ -17,7 +17,7 @@ It saves you the work of having to [manually update](http://www.sebnozzi.com/142
 
 To install giter8 for the first time, follow the [installation instructions](https://github.com/n8han/giter8#installation) on the official page.
 
-If you _already_ have giter8 installed, but it's from before **30th April 2014**, you need to **upgrade** (if in doubt, upgrade).
+If you _already_ have giter8 installed, but it's from before **30th June 2014**, you need to **upgrade** (if in doubt, upgrade).
 
 First, clean-up the [conscript](https://github.com/n8han/conscript) cache with:
 
@@ -62,13 +62,13 @@ Sample session:
 
 Scala.js Project
 
-version [0.1-SNAPSHOT]:
-organization [org.example]: com.sebnozzi
-name [ScalaJS Example]: My Cool Project
-packageName [com.sebnozzi.mycoolproject]:
-className [MyCoolProject]:
+name [ScalaJS Example]: ScalaJsDemo
+organization [org.example]: 
+version [0.1-SNAPSHOT]: 
+packageName [org.example.scalajsdemo]: 
+className [Scalajsdemo]: 
 
-Template applied in ./my-cool-project
+Template applied in ./scalajsdemo
 
 # cd my-cool-project
 # sbt
